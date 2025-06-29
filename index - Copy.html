@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>สินค้า Nitro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #0f0f10;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #6a00f4, #ff00c8);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 0 30px #ff00c8;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 60px 20px;
+    }
+
+    .product {
+      background: #1e1e20;
+      border-radius: 14px;
+      padding: 20px;
+      width: 260px;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .product:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(255, 0, 255, 0.3);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      color: #fff;
+      margin: 10px 0 5px;
+    }
+
+    .product p {
+      color: #ccc;
+    }
+
+    .product span {
+      display: block;
+      color: #00f0ff;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .detail-btn {
+      margin-top: 15px;
+      background: none;
+      border: 1px solid #ff00c8;
+      padding: 8px 14px;
+      color: #ff00c8;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .detail-btn:hover {
+      background: #ff00c8;
+      color: white;
+    }
+
+    footer {
+      background: #111;
+      color: #bbb;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>บริการ Nitro Discord</h1>
+    <p>Mail + Pass แท้ ปลอดภัย ราคาดี ส่งไว</p>
+  </header>
+
+  <section class="product-list">
+    <div class="product">
+      <img src="https://playerok.com/imgproxy/M3PlewckVMPUGweqEbHaDRJm2A7ZCZc6Lj5nN2_Nfgg/wm:0.8:soea:5:2:0.2/rs:fill:0:1000:0/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFlZGMxYjRhLWQyMTItNmNlMC0wODc0LTI1Yzk3ZjAwYmFmYy5wbmc.jpg" alt="Nitro Boost รายเดือน" />
+      <h3>Nitro Boost (Mail+Pass)</h3>
+      <p>ระยะเวลา: รายเดือน</p>
+      <span>฿165</span>
+      <button class="detail-btn">ดูรายละเอียด</button>
+    </div>
+
+    <div class="product">
+      <img src="https://playerok.com/imgproxy/M3PlewckVMPUGweqEbHaDRJm2A7ZCZc6Lj5nN2_Nfgg/wm:0.8:soea:5:2:0.2/rs:fill:0:1000:0/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFlZGMxYjRhLWQyMTItNmNlMC0wODc0LTI1Yzk3ZjAwYmFmYy5wbmc.jpg" alt="Nitro Boost รายปี" />
+      <h3>Nitro Boost (Mail+Pass)</h3>
+      <p>ระยะเวลา: รายปี</p>
+      <span>฿1600</span>
+      <button class="detail-btn">ดูรายละเอียด</button>
+    </div>
+
+    <div class="product">
+      <img src="https://www.technotification.com/wp-content/uploads/2021/02/Discord-Nitro-Banner-Image.jpg" alt="Nitro Basic รายเดือน" />
+      <h3>Nitro Basic (Mail+Pass)</h3>
+      <p>ระยะเวลา: รายเดือน</p>
+      <span>฿75</span>
+      <button class="detail-btn">ดูรายละเอียด</button>
+    </div>
+
+    <div class="product">
+      <img src="https://www.technotification.com/wp-content/uploads/2021/02/Discord-Nitro-Banner-Image.jpg" alt="Nitro Basic รายปี" />
+      <h3>Nitro Basic (Mail+Pass)</h3>
+      <p>ระยะเวลา: รายปี</p>
+      <span>฿610</span>
+      <button class="detail-btn">ดูรายละเอียด</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Nitro Store Thailand
+  </footer>
+
+</body>
+</html>
